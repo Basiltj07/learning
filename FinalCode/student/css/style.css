@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+.logo {
+  height: 60px;
+}
+.logo img {
+  max-height: 100%;
+}
+.top-nav {
+  background: #000;
+  width: 100%;
+  height: 50px;
+}
+.top-nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.top-nav ul li {
+  list-style: none;
+  color: #e9c65e;
+  margin-right: 10px;
+  border-right: 1px solid #e9c65e;
+  padding-right: 10px;
+  font-size: 12px;
+}
+.top-nav ul li:last-child {
+  border: 0;
+  margin: 0;
+}
+.top-nav .social-links li {
+  border: 0;
+  background: rgb(218, 182, 74);
+  background: radial-gradient(circle, rgba(218, 182, 74, 1) 0%, rgba(224, 190, 93, 1) 50%, rgba(218, 183, 81, 1) 100%);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.top-nav .social-links li:hover {
+  background: radial-gradient(circle, rgba(218, 182, 74, 1) 100%, rgba(189, 142, 93, 1) 50%, rgba(189, 142, 8, 1) 0%);
+}
+.error {
+  color: red;
+}
+.form-control {
+  min-height: 42px;
+}
+.main-navigation {
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 10px;
+}
